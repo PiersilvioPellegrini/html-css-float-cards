@@ -21,7 +21,9 @@ header {
     width: 100%;
     background-color: white;
     text-align: center;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    ;
 
 }
 
@@ -36,9 +38,57 @@ nav {
     background-color: white;
     text-align: center;
     margin-top: 45px;
+   
 }
 
-  .paragrafo {
+.paragrafo {
     color: black;
     font-size: 1rem;
 }
+
+.row_cards {
+    width: 100%;
+    background-color: red;
+    padding-left: 25px;
+
+    
+
+
+
+}
+
+[class*="card-"] {
+    width: 350px;
+    background-color: black;
+    display: inline-block;
+    margin-inline-end: 30px;
+    
+}
+
+[class*="card-"] img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+[class*="card-"] ul {
+    list-style: none;
+    color: white;
+    line-height: 1.8rem;
+
+}
+
+li:last-child {
+    color: #00aeff;
+}
+
+
+ul li:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-top: 0.4rem;
+
+}
+
