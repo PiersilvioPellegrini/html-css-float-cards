@@ -12,7 +12,7 @@
 }
 
 .container {
-    width: 920px;
+    width: 1200px;
     margin: 0 auto;
     background-color: white;
 }
@@ -38,8 +38,7 @@ nav {
     margin-top: 45px;
 }
 
-nav .paragrafo {
+  .paragrafo {
     color: black;
-    text-align: center;
-    font-size: 1rem;
+    font-size: 3rem;
 }
